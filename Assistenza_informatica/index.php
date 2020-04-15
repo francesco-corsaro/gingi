@@ -1,6 +1,9 @@
 <?php 
 session_start ();
+header("location: https://gingi.altervista.org/Assistenza_informatica/assistenza10.php");
 include 'bot_colloquio.php';
+
+
 ?>
 <html > 
 <head>
@@ -131,11 +134,13 @@ _iub.csConfiguration = {"lang":"it","siteId":1679893,"cookiePolicyId":49430034,"
       <meta property="og:title" content="Gingi assistenza pc  Catania- Riparazione computer smartphone"/>
 	<meta property="og:locale" content="it_IT" />
 	<meta property="og:type" content="article" />
-	<meta property="og:url" content="http://gingi.altervista.org/" />
+	<meta property="og:url" content="https://gingi.altervista.org/" />
 	<meta property="og:site_name" content="Gingi assistenza pc  Catania- Riparazione computer smartphone" />
 	<link rel="canonical" href="http://gingi.altervista.com" />
 
-
+<?php 
+ header("location: https://gingi.altervista.org/Assistenza_informatica/assistenza10.php");
+?>
 </head>
 <body>
 	<?php include 'capullo1_html.php'; ?>
@@ -212,5 +217,7 @@ _iub.csConfiguration = {"lang":"it","siteId":1679893,"cookiePolicyId":49430034,"
 <?php include 'footer_html.php';?>
 <a href="https://www.iubenda.com/privacy-policy/49430034" class="iubenda-white iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
 <a href="https://www.iubenda.com/privacy-policy/49430034/cookie-policy" class="iubenda-white iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+
+
 </body>
 </html>

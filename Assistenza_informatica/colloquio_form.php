@@ -1,17 +1,16 @@
-<?php echo "
-<div class=\"container\">
-	<form action=\"/Assistenza_informatica/bot_colloquio.php\" method=\"post\">
 
-		<input type=\"text\" name=\"name\"  id=\"fname\" placeholder=\"Il tuo nome\">
+<div class="container">
+	<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+			<?php echo $ok;?>
+		<input type="text" name="name"  id="fname" placeholder="Il tuo nome" required>
 
-		<input type=\"text\" name=\"mit\"  id=\"fname\" placeholder=\"Es:tuonome@mail.com\">
+		<input type="email" name="mit" class="ins" id="fname" placeholder="Es:tuonome@mail.com" required>
 		
-		<input type=\"text\" name=\"ogg\"  id=\"fname\" placeholder=\"Cellulare\">
+		<input type="number" name="ogg" class="ins" id="fname" placeholder="Cellulare" required>
 
-		<textarea id=\"area\" name=\"corpo\"  placeholder=\"Scrivi qui il tuo messaggio\" ></textarea>
+		<textarea id="area" name="corpo"  placeholder="Scrivi qui il tuo messaggio" required ></textarea>
 
-		<input type=\"submit\" value=\"Invia\">
+		<input type="submit" value="Invia">
 	</form>
-</div>";
+</div>
 
-?>
