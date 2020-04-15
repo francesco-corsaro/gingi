@@ -11,7 +11,7 @@ position:sticky;
 display: block;
 }
 .margin2{
-    margin-left: 13%;
+    margin-left: 30%;
     position:sticky;
 display: block;
 }

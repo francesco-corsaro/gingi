@@ -26,7 +26,7 @@
     "latitude": 37.525466, 
     "longitude": 15.079351
   },
-  "url": "http://gingi.altervista.org/Assistenza_informatica/assistenza5.php",
+  "url": "https://gingi.altervista.org/Assistenza_informatica/assistenza5.php",
   "telephone": "+393485686702",
   "email":"francesco.corsaro.psi@gmail.com",
   "openingHoursSpecification": [
@@ -188,7 +188,7 @@ _iub.csConfiguration = {"lang":"it","siteId":1679893,"cookiePolicyId":49430034,"
  </div>  
  <div class="col-12 f2">
  	<h2>Costruzione siti web</h2>
- 	Realizzo siti web utilizzando direttamente i codici Html CSS e PHP in maniera da poter personalizzare il sito web in base alle preferenze dei miei clienti. L’utilizzo diretto dei codici a differenza dei CMS comuni come Wordpress permette una maggiore libertà di personalizzazione e manutenzione del proprio sito web. <br>
+ 	Realizzo siti web utilizzando direttamente i codici Html CSS e PHP in maniera da poter personalizzare il sito web in base alle preferenze dei miei clienti. L’utilizzo diretto dei codici di programmazione permette una maggiore libertà di personalizzazione e manutenzione del proprio sito web. <br>
  	Contattami per avere maggiori informazioni e sapere i prezzi.
  </div>
  <div class="col-12 r1" id="section4">
