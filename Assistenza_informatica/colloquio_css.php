@@ -15,8 +15,26 @@ input[type=text], textarea {
   background-color: color: rgba(32,119,206,0.09);
   box-shadow: 2px 2px 7px 1px #2A77FA;
 }
-
+.ins{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #2B79FF;
+  border-radius: 25px;
+   -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  resize: vertical;
+  font-size: 6vw;
+  font-family: 'Manjari', sans-serif;
+  background-color: color: rgba(32,119,206,0.09);
+  box-shadow: 2px 2px 7px 1px #2A77FA;
+}
 input[type=text]:focus {
+  border: 3px solid #6060ff;
+}
+.ins:focus {
   border: 3px solid #6060ff;
 }
 textarea:focus {
@@ -44,6 +62,9 @@ background-color: rgba(206,200,197,0.17);
     }
  @media screen and (min-device-width: 780px){
  input[type=text], textarea {
+   font-size:1.5vw;
+    }    
+  .ins{
    font-size:1.5vw;
     }    
 }
