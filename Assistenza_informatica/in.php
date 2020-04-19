@@ -169,6 +169,7 @@ _iub.csConfiguration = {"lang":"it","siteId":1679893,"cookiePolicyId":49430034,"
 </div>
 <div class="col-12 r1" id="section3">
 	<h1 style="text-align:center;">Gingi Assistenza Computer a Catania</h1>
+	<p><b style="color:red;">Promozione: </b>Formattazione pc 15€</p>
 </div>
 <div class="col-12" id="section3">
     
